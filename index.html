@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ma première page web interactive">
+    <meta name="author" content="Votre nom">
+    <!-- Ajout de favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <title>Mon Site Web Interactif</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Mon Site</div>
+        </nav>
+    </header>
+
+    <main id="container">
+        <h1>Ma première page interactive</h1>
+        
+        <section class="interaction-section">
+            <!-- Étape 1: Un bouton amélioré -->
+            <button id="monBouton" class="btn-primary" aria-label="Cliquez pour interagir">
+                Cliquez-moi!
+            </button>
+            
+            <!-- Étape 2: Une zone de texte -->
+            <p id="texteAffichage" class="text-display">
+                Le texte changera quand vous cliquerez sur le bouton
+            </p>
+            
+            <!-- Étape 3: Un compteur -->
+            <div class="compteur">
+                <p>Nombre de clics: <span id="nombreClics" aria-live="polite">0</span></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mon Site Web. Tous droits réservés.</p>
+    </footer>
+
+    <!-- lien JavaScript -->
+    <script src="node.js" defer></script>
+</body>
+</html>
